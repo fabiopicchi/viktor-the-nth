@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="800" tileheight="600">
+ <tileset firstgid="1" name="mainmenu" tilewidth="800" tileheight="600">
+  <image source="../Arte/mainmenu.jpg" width="800" height="600"/>
+ </tileset>
+ <tileset firstgid="2" name="options" tilewidth="800" tileheight="600">
+  <image source="../Arte/options.jpg" width="800" height="600"/>
+ </tileset>
+ <tileset firstgid="3" name="credits" tilewidth="800" tileheight="600">
+  <image source="../Arte/credits.jpg" width="800" height="600"/>
+ </tileset>
+ <tileset firstgid="4" name="howto" tilewidth="800" tileheight="600">
+  <image source="../Arte/howto.jpg" width="800" height="600"/>
+ </tileset>
+ <tileset firstgid="5" name="ending" tilewidth="800" tileheight="600">
+  <image source="../Arte/ending.jpg" width="800" height="600"/>
+ </tileset>
+ <tileset firstgid="6" name="lapide" tilewidth="800" tileheight="600">
+  <image source="../Arte/lapide.png" width="800" height="600"/>
+ </tileset>
+ <tileset firstgid="7" name="pausescreen" tilewidth="800" tileheight="600">
+  <image source="../Arte/pausescreen.png" width="800" height="600"/>
+ </tileset>
+ <layer name="Camada de Tiles 1" width="1" height="1" visible="0">
+  <data>
+   <tile gid="7"/>
+  </data>
+ </layer>
+ <objectgroup name="mainmenu" width="1" height="1">
+  <object name="start" type="button" x="321" y="321" width="156" height="44"/>
+  <object name="howto" type="button" x="286" y="370" width="227" height="33"/>
+  <object name="options" type="button" x="324" y="412" width="147" height="33"/>
+  <object name="credits" type="button" x="324" y="457" width="147" height="33"/>
+  <!--<object name="moreGames" type="button" x="250" y="502" width="147" height="33"/>
+  <object name="likeUs" type="button" x="292" y="547" width="147" height="33"/>-->
+  <object name="numero" type="text" x="158" y="173" width="480" height="87"/>
+ </objectgroup>
+ <objectgroup name="end" width="1" height="1" visible="0">
+  <object name="ending" type="text" x="25" y="25" width="748" height="226">
+   <properties>
+    <property name="alignment" value="left"/>
+    <property name="color" value="0xffffff"/>
+    <property name="font" value="VIKING"/>
+    <property name="size" value="24"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="lapide" width="1" height="1" visible="0">
+  <object name="numero" type="text" x="278" y="378" width="244" height="44"/>
+  <object name="texto" type="text" x="278" y="456" width="244" height="63"/>
+ </objectgroup>
+ <objectgroup name="options" width="1" height="1" visible="0">
+  <object name="back" type="button" x="71" y="538" width="109" height="39"/>
+  <object name="delete" type="button" x="75" y="200" width="437" height="50"/>
+  <object name="sound" type="button" x="75" y="270" width="437" height="50"/>
+  <object name="particles" type="button" x="75" y="343" width="437" height="50"/>
+ </objectgroup>
+ <objectgroup name="credits" width="1" height="1" visible="0">
+  <object name="back" type="button" x="71" y="532" width="109" height="39"/>
+ </objectgroup>
+ <objectgroup name="howto" width="1" height="1" visible="0">
+  <object name="back" type="button" x="71" y="532" width="109" height="39"/>
+ </objectgroup>
+ <objectgroup name="pause" width="1" height="1" visible="0">
+  <object name="resume" type="button" x="270" y="290" width="273" height="40"/>
+  <object name="sound" type="button" x="300" y="356" width="112" height="43"/>
+  <object name="quit" type="button" x="347" y="429" width="112" height="43"/>
+ </objectgroup>
+ <objectgroup name="intro" width="1" height="1" visible="0">
+  <object name="intro" type="intro" x="67" y="53" width="675" height="238">
+   <properties>
+    <property name="alignment" value="left"/>
+    <property name="color" value="0xffffff"/>
+    <property name="font" value="VIKING"/>
+    <property name="size" value="24"/>
+   </properties>
+  </object>
+  <object name="skip" type="text" x="212" y="558" width="359" height="54">
+   <properties>
+    <property name="alignment" value="left"/>
+    <property name="color" value="0xffffff"/>
+    <property name="font" value="VIKING"/>
+    <property name="size" value="24"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

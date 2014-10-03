@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="68" height="18" tilewidth="64" tileheight="64">
+ <objectgroup name="nuvens" width="68" height="18">
+  <object type="nuvem" x="244" y="246" width="448" height="132"/>
+  <object type="nuvem" x="612" y="742" width="448" height="132"/>
+  <object type="nuvem" x="2708" y="818" width="448" height="132"/>
+  <object type="nuvem" x="1192" y="450" width="448" height="132"/>
+  <object type="nuvem" x="1796" y="642" width="448" height="132"/>
+  <object type="nuvem" x="2320" y="190" width="448" height="132"/>
+  <object type="nuvem" x="3008" y="514" width="448" height="132"/>
+  <object type="nuvem" x="3560" y="126" width="448" height="132"/>
+  <object type="nuvem" x="3988" y="666" width="448" height="132"/>
+ </objectgroup>
+</map>
